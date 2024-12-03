@@ -1,0 +1,22 @@
+ul{
+    padding-left: 0;
+}
+.stock{
+    position: fixed;
+    top: -25vh;
+    left: 73vw;
+    text-align: center;
+}
+
+.formUpdate{
+    position: absolute;
+    top: -200px;
+    left: 40%;
+    z-index: 2000;
+    width: 400px;
+    transition: all 0.5s ease;
+}
+
+.formUpdate.show{
+    top: 10px;
+}
